@@ -4,7 +4,7 @@ touch .inp .out .ans
 i=1
 while true
 do
-    ./gen $i small > .inp
+    ./gen $i > .inp
     ./solution < .inp > .out
     ./brute < .inp > .ans
     diff -w .out .ans || break
