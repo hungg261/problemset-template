@@ -7,11 +7,16 @@ cp -r template my_problem
 cd my_problem
 ```
 
+2. Khởi tạo dự án
+Chạy chương trình `setup.sh` để bắt đầu khởi tạo, hoặc chạy file Python:
+```bash
+python setup.py
+```
+
 2. Viết lời giải chính
 Sửa file `solutions/solution.cpp`
 
-3. Viết generator
-Sửa file `generators/gen.cpp`
+3. Viết generator/checker/validator
 
 4. Build toàn bộ chương trình
 `./scripts/build/build.sh`
